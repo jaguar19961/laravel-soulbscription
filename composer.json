@@ -1,19 +1,22 @@
 {
-    "name": "lucasdotvin/laravel-soulbscription",
+    "name": "jaguar19961/laravel-soulbscription",
     "description": "A straightforward interface to handle subscriptions and features consumption.",
     "keywords": [
-        "lucasdotvin",
+        "jaguar19961",
         "laravel",
         "laravel-soulbscription",
         "subscriptions"
     ],
-    "homepage": "https://github.com/lucasdotvin/laravel-soulbscription",
+    "homepage": "https://github.com/jaguar19961/laravel-soulbscription",
     "license": "MIT",
     "authors": [
         {
             "name": "Lucas Vinicius",
             "email": "lucasvinicius211@yahoo.com",
             "role": "Developer"
+        },
+        {
+            "name": "Vadim"
         }
     ],
     "require": {
@@ -27,8 +30,8 @@
     },
     "autoload": {
         "psr-4": {
-            "LucasDotVin\\Soulbscription\\": "src",
-            "LucasDotVin\\Soulbscription\\Database\\Factories\\": "database/factories"
+            "Jaguar19961\\Soulbscription\\": "src",
+            "Jaguar19961\\Soulbscription\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
@@ -50,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LucasDotVin\\Soulbscription\\SoulbscriptionServiceProvider"
+                "Jaguar19961\\Soulbscription\\SoulbscriptionServiceProvider"
             ],
             "aliases": []
         }
